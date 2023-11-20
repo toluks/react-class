@@ -17,8 +17,9 @@ export default function RootLayout({ children }) {
         <Navbar />
         <div classroom= 'min-h-[70vh]'>
         {children}
+        </div>
 
-        </footer>
+        <footer/>
         </body>
     </html>
   )
